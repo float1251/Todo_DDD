@@ -8,8 +8,8 @@ namespace TodoApp.Tests.EditorTests
         [Test]
         public void TaskId()
         {
-            var id = new TaskId();
-            var id2 = new TaskId();
+            var id = new TodoId();
+            var id2 = new TodoId();
             Assert.That(id.id, Is.Not.EqualTo(id2.id));
         }
     }

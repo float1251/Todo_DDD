@@ -1,30 +1,30 @@
 namespace TodoApp.Domain.Todo
 {
-    public class Task
+    public class Todo
     {
-        private TaskId id;
+        private TodoId id;
         private string name;
-        private TaskStatus status;
+        private TodoStatus status;
 
-        public Task(string name)
+        public Todo(string name)
         {
-            id = new TaskId();
+            id = new TodoId();
             this.name = name;
-            this.status = TaskStatus.UnDone;
+            this.status = TodoStatus.UnDone;
         }
     }
 
-    public class TaskId
+    public class TodoId
     {
         public string id { get; }
 
-        public TaskId()
+        public TodoId()
         {
             id = System.Guid.NewGuid().ToString();
         }
     }
 
-    public enum TaskStatus
+    public enum TodoStatus
     {
         UnDone,
         Done
