@@ -3,13 +3,9 @@ using System.Threading.Tasks;
 
 namespace TodoApp.Domain.Todo
 {
-    public interface ITodoListRepository
+    public interface ITodoRepository
     {
-        Task CreateTodoList(TodoList todolist);
-        
-        Task<IEnumerable<TodoList>> FindAll();
-        
-        Task<TodoList> Find();
+        Task<IEnumerable<Todo>> FindAll();
         
         Task<Todo> CreateTask(string name);
 

@@ -5,7 +5,8 @@
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "domain",
-        "usecase"
+        "usecase",
+        "Infrastructure"
     ],
     "includePlatforms": [
         "Editor"

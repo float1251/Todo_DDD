@@ -1,11 +1,7 @@
 {
-    "name": "Main",
+    "name": "Infrastructure",
     "rootNamespace": "",
     "references": [
-        "GUID:a4a82b22f0aa748cfa6a46c0209eb7bd",
-        "GUID:34c5a9f1ac94549c188d1881b1ed541c",
-        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
-        "GUID:065b1860e56904673ba298c16bead2ce",
         "GUID:f6e703593d78c45f791d423690122000"
     ],
     "includePlatforms": [],

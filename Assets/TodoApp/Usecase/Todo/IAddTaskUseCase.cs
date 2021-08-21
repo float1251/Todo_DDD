@@ -6,6 +6,6 @@ namespace TodoApp.Usecase.Todo
 {
     public interface IAddTaskUseCase
     {
-        Task<TaskDto> AddTask(string id, string taskName);
+        Task<TodoDto> AddTask(string taskName);
     }
 }
