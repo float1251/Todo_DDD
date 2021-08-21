@@ -1,0 +1,24 @@
+@startuml todo
+left to right direction
+actor User as U
+
+rectangle TodoList {
+    usecase "TodoListを作成する" as UC1
+    usecase "TodoList名を変更する" as UC2
+    usecase "TodoListを削除する" as UC3
+}
+
+rectangle Task {
+    usecase "Create Task" as UC4
+    usecase "toggle Task Status" as UC5
+    usecase "Delete Task" as UC6
+}
+
+U --> UC1
+U --> UC2
+U --> UC3
+U --> UC4
+U --> UC5
+U --> UC6
+
+@enduml
